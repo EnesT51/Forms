@@ -8,11 +8,11 @@
    <title>Form</title>
 </head>
 <body>
-   
-   <?php
 
-   ?>
    <div id="FormDiv">
+
+   Welkom <?php echo $_POST["fname"]; ?><br>
+   Je email addres is: <?php echo $_POST["Email"]; ?>
 
    </div>
 
