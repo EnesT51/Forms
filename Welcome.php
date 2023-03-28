@@ -11,7 +11,7 @@
 <body>
 
    <div id="FormDiv">
-      <form method="post" action="WelcomeGEt.php">
+      <form method="post" action="WelcomePost.php">
          <label for="fname">First name: </label><br>
          <input type="text" id="fname" name="fname" placeholder="First name"><br>
          <label for="lname">Email: </label><br>
