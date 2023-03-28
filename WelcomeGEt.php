@@ -9,11 +9,19 @@
 </head>
 <body>
 
+
+<?php
+   
+   if($_SERVER["REQUEST_METHOD"] == "POST"){
+      $name = htmlspecialchars($_POST["fname"]);
+      $email = htmlspecialchars($_POST["Email"]);
+   }
+   
+?>
    <div id="FormDiv">
-
-   Welkom <?php echo $_GET['fname']; ?><br>
-   Je email addres is: <?php echo $_GET['Email']; ?>
-
+      <h1>Welkom: <?php echo $name; ?></h1>
+      <h2>Je email addres is: <?php echo $email ?></h2>
+   
    </div>
 
 </body>
